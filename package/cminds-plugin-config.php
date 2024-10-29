@@ -1,0 +1,25 @@
+<?php
+
+$cminds_plugin_config = array(
+	'plugin-is-pro'					 => FALSE,
+	'plugin-has-addons'				 => FALSE,
+	'plugin-free-only'				 => TRUE,
+	'plugin-abbrev'					 => 'authorizedstore',
+	'plugin-affiliate'				 => '',
+	'plugin-redirect-after-install'	 => admin_url( 'admin.php?page=authorizedstore_menu' ),
+	'plugin-show-guide'				 => FALSE,
+	'plugin-file'					 => AUTHSTORE_PLUGIN_FILE,
+	'plugin-dir-path'				 => plugin_dir_path( AUTHSTORE_PLUGIN_FILE ),
+	'plugin-dir-url'				 => plugin_dir_url( AUTHSTORE_PLUGIN_FILE ),
+	'plugin-basename'				 => plugin_basename( AUTHSTORE_PLUGIN_FILE ),
+	'plugin-icon'					 => '',
+	'plugin-name'					 => 'Authorized Store',
+	'plugin-slug'					 => '',
+	'plugin-short-slug'				 => 'authorizedstore',
+	'plugin-menu-item'				 => 'authorizedstore_menu',
+	'plugin-textdomain'				 => 'authorizedstore',
+	'plugin-support-url'			 => '',
+	'plugin-review-url'				 => '',
+	'plugin-store-url'				 => 'https://www.cminds.com/wordpress_plugins/',
+	'plugin-licensing-aliases'		 => array( ),
+);
